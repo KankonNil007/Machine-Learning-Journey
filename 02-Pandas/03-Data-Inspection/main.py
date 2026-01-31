@@ -46,3 +46,11 @@ print(f"Shape: {df2.shape}")
 # .columns - displays the column names
 
 print(f"Column Names: {df2.columns}")
+
+# .dtypes - displays the data types
+
+print(f"Data Types: {df2.dtypes}")
+
+# .sample(n) - shows random n rows
+
+print(df2.sample())
